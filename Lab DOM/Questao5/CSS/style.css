@@ -1,0 +1,28 @@
+body{
+        text-align: center;
+        font: normal 16pt arial;
+        background-color: rgb(191, 241, 195);
+        color: rgb(0, 0, 0);
+}
+h1{
+        color: rgb(117, 165, 54);
+}
+
+div.CalcReajuste{
+        background-color:rgb(215, 250, 228);
+        width: 500px;
+        border: 7px solid rgb(117, 165, 54);
+        padding: 2px 40px 20px;
+        margin: 30px;
+        font-family: Arial, Helvetica sans-serif;              
+}
+div#Resultado{
+        background-color:rgb(194, 230, 177);
+        color: rgb(117, 165, 54);
+        text-align: center;
+        width: 300px;
+        border: 3px solid rgb(117, 165, 54);
+        padding: 5px 65px 5px ;
+        margin: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+}

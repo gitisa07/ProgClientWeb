@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    font: normal 16pt arial;
+    background-color: rgb(253, 219, 192);
+    color: rgb(0, 0, 0);
+}
+h1{
+    color: rgb(196, 93, 33);
+}
+div.NumeroPrimo{
+    background-color:rgb(250, 238, 215);
+        width: 500px;
+        border: 7px solid rgb(196, 93, 33);
+        padding: 2px 40px 20px;
+        margin: 30px;
+        font-family: Arial, Helvetica sans-serif;              
+}
+div#resultado{
+        background-color:rgb(219, 178, 139);
+        color: rgb(97, 52, 16);
+        text-align: center;
+        width: 300px;
+        border: 3px solid rgb(196, 93, 33);
+        padding: 5px 65px 5px ;
+        margin: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+}

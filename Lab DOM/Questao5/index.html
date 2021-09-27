@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 5</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1>Qual é o reajuste salarial?</h1>
+    <p>5.Escreva um algoritmo para ler o salário mensal atual de um funcionário <br>
+        e o percentual de reajuste. Calcular e escrever o valor do novo salário.</p>
+        <div class = "CalcReajuste">
+            <h3>Digite o valor do salário atual:</h3>
+            <input type="text" id="SalarioAtual">
+            <h3>Digite o valor do reajuste:</h3>
+            <input type="text" id="Reajuste">
+            <div id = "Resultado">
+                <h3>Resultado:</h3>
+                <input type="text" id="SalarioFinal"><br>
+                <button onclick="ReajusteSalarial()">Calcular</button>
+                <button onclick="Limpar()">Limpar</button>
+            </div>
+        </div>
+
+        <!--Script-->
+        <script src="JS/script.js"></script>
+</body>
+</html>
