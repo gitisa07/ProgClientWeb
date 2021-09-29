@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 6 | Questão 7 | Questão 8</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1>Quantos dias de vida, Escrevendo por extenso e Quantas semanas há entre duas datas</h1>
+    <p>6. Faça um programa que leia uma data de nascimento<br> 
+        e retorne quantos dias de vida a pessoa tem.</p>
+    <p>7. Faça um programa que leia uma data de nascimento em formato de dd/mm/aaaa<br>
+        e escreva por extenso a data. Por exemplo: 03/05/2017 vira "03 de maio de 2017".<br></p>
+        <p>8. Faça um programa que leia duas datas e indique em semanas a distância entre elas.<br>
+         Por exemplo: 02/05/2017 e 02/07/2017 resultado = 8 semanas.</p>   
+    <div class="Date">
+        <h1>Calcular dias</h1>
+        <form name="form_main">
+        <label for="date_ini">Insira a sua data de nascimento:</label> 
+        <input name="date_ini" id="date_ini" type="date"> <br>
+        <label for="date_end">Insira a data atual:</label> 
+        <input name="date_end" id="date_end" type="date"> <br>
+        <div id="Result">
+            <h3>Resultado: <button class="btn" type="button" onclick="countDays()">Contar</button></h3> 
+            <label for="days">Você tem:</label> 
+            <span id="days"></span><br>
+            </form><br>
+            <h3>Resultado: <button class="btn" type="button" onclick="Extenso()">Extenso</button></h3> 
+            <label for="days">Você nasceu em:</label> 
+            <span id="days2"></span><br>
+            <h3>Resultado: <button class="btn" type="button" onclick="Diference()">Contar semanas</button></h3>
+            <label for="days">Entre essas duas datas há: </label> 
+            <span id="date1"></span><br>
+            </form>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>

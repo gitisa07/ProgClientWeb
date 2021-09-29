@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1 e Questão 2</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1>Invertendo os Caracteres e Achando as Vogais</h1>
+    <p>1. Faça um programa que leia uma frase e escreva abaixo invertendo os caracteres <br>
+        -o primeiro se torna o último, o segundo o penúltimo e assim por diante.</p>
+        <p>2. Faça um programa que leia uma frase e escreva abaixo marcando as vogais em negrito.</p>
+        <div class="Invert">
+            <h3>Digite uma frase:</h3>
+            <textarea id="Texto" cols="35" rows="7"></textarea>
+            <div id="Inverter">
+                <h3>Resultado:</h3>
+                <textarea id="Resultado" cols="35" rows="7"></textarea><br>
+                <button class="btn" onclick="Inverter()">Inverter</button>
+                <textarea id="Resultado2" cols="35" rows="7"></textarea><br>
+                <button class="btn" onclick="Vogais()">Achar vogais</button>
+                <p>Por favor, atualize a página para a inserção de um novo texto!</p>
+                <p>No momento, o botão Limpar apresenta alguns erros e só funciona<br>
+                para apagar a caixa de inversão. </p>
+                <button class = "btn"onclick="Limpar()">Limpar</button>
+            </div>
+        </div>
+
+
+    <script src="JS/script.js"></script>
+</body>
+</html>

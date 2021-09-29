@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    font: normal 16pt arial;
+    background-color: rgb(210, 192, 253);
+    color: rgb(0, 0, 0);
+}
+h1{
+    color: rgb(94, 16, 97);
+}
+div.Separador{
+    background-color:rgb(221, 215, 250);
+        width: 500px;
+        border: 7px solid rgb(94, 16, 97);
+        padding: 2px 40px 20px;
+        margin: 30px;
+        font-family: Arial, Helvetica sans-serif;              
+}
+div#Separar{
+        background-color:rgb(180, 139, 219);
+        color: rgb(17, 16, 97);
+        text-align: center;
+        width: 300px;
+        border: 3px solid rgb(60, 16, 97);
+        padding: 5px 65px 5px ;
+        margin: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+}

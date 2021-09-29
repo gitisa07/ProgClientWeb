@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 9</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body> 
+    <h1>Força da senha</h1>
+    <p>9. Faça uma caixa de texto que classifique:-fraca (em vermelho) se só possuir letras minúsculas ou<br> 
+        maiúsculas-moderada (em laranja) se possuir letras minúsculas e maiúsculas e números-forte (em verde)<br>
+        se possuir letras minúsculas e maiúsculas, números e caracteres especiais (@, #, !, $, %, &, *, (, ), -, +, ., =)</p>
+    <div class="Senha">
+        <h3>Senha:<input id="input" name="pass" size="50" onkeyup="javascript:verificaForca(this);" type="password"> </h3><br>
+        <h3>Força da Senha</h3>
+        <div id="ForcaSenha" name="div_forca_senha" style="background-color: rgb(255, 255, 255); width: 326px; height: 20px;"></div>
+        </div>
+
+    <!--Script-->
+    <script src="JS/script.js"></script>
+</body>
+</html>

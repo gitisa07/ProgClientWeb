@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4 e Questão 5</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h1>Indicando a ocorrência e Substituindo</h1>
+    <p>4.Faça um programa que leia um texto e indique a palavra de maior ocorrência<br>
+         e quantas vezes ela apareceu no texto.</p>
+         5. Faça um programa que implemente a funcionalidade substituir em textos,<br>
+         ou seja, terá um campo "procurar" e um campo "substituir".<br>
+          Ao executar, seu programa deverá procurar as ocorrências no texto<br>
+           do valor digitado em "procurar" e trocar pelo valor digitado em "substituir".</p>    
+        <div class = "Cont">
+            <h3>Digite um texto:</h3>
+            <textarea id="Texto" cols="35" rows="7"></textarea>
+            <h3>Digite a palavra que vai sofrer alteração:</h3>
+            <textarea id="Palavra" cols="35" rows="7"></textarea><br>
+            <button class="btn">Procurar</button>
+            <h3>Digite a palavra que vai substituir:</h3>
+            <textarea id="PalavraSubs" cols="35" rows="7"></textarea>
+            <div id = "Text">
+                <h3>Resultado:</h3>
+                <textarea id="Resultado" cols="35" rows="7"></textarea>
+                <p class="pp">Clique no botão para achar a palavra:</p>
+                <button class = "btn" onclick="Palavra()
+                ">Achar palavra</button>
+                <textarea id="Resultado2" cols="35" rows="7"></textarea>
+                <p class="pp">Clique no botão para subtituir a palavra:</p>
+                <button class="btn" onclick="Substituir()">Substituir</button>
+                <p class="pp">Recarregue a página para inserir um novo texto!<br>
+                    No momento, o botão Limpar apresenta alguns erros e não está funcionando.<br>
+                </p>
+                <button class = "btn"onclick="Limpar()">Limpar</button>
+            </div>
+
+        </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>
