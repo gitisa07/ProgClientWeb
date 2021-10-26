@@ -1,0 +1,173 @@
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(0, 0, 0);
+}
+header{
+    background-color:#111241;
+}
+h2{
+    text-align:center;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 255, 255);
+    float: top;
+}
+h4{
+    padding-top:10px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: rgb(236, 234, 234);
+}
+p{
+    font-size: 17px;
+    font-family: 'Arial', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.pBanner{
+    font-size: 20px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+.divMasterLeft{
+    background-color: rgb(46, 46, 45);
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 3%;
+    margin-left: 70px;
+    min-width: 300px;
+    max-width: 500px;
+    height: 1200px;
+    float: left;
+}
+.divMasterRight{
+    background-color: rgb(46, 46, 45);
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    margin-top: 5px;
+    margin-right: 70px;
+    margin-bottom: 3%;
+    margin-left: 10px;
+    min-width: 300px;
+    max-width: 500px;
+    float: right;
+    height: 1200px;
+}
+
+.divMasterLeft:hover{
+    box-shadow: 0 8px 16px 0 rgba(48, 196, 255, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.15);
+}
+.divMasterRight:hover{
+    box-shadow: 0 8px 16px 0 rgba(48, 196, 255, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.15);
+}
+.opinioes{
+    float: left;
+}
+.br{
+    clear: both;
+}
+
+.fotoDoFilme{
+    padding: 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: auto;
+    width:100%;
+    min-width: 80px;
+    max-width: 350px;
+    border-radius: 7px 7px 0 0;
+    float: left;
+    /*zoom na imagem*/
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+/*zoom na imagem*/
+.fotoDoFilme:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.logo{
+    background-color:#111241;
+    text-align: center;
+}
+.classificacao{
+    float: left;
+    width: 50px;
+    height: 55px;
+    margin-top: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.numero{
+    font-size: 20px;
+    text-align: center;
+    float: left;
+}
+.classificacao p{
+    border-radius: 0px 0px 7px 7px;
+    border-style: groove;
+    border-color: #000000;
+    text-align: center;
+    width: 50px;
+    height: 40px;
+    padding-top: 15px;
+    margin-top: 0px;
+    float: left
+}
+.opinioes{
+    margin: 0;
+    padding-top: 0px;
+}
+.nomeFilme{
+    font-size: 30px;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+a{
+    color: white;
+    font-family: 'Abel', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    width: 100%;
+    min-width: 120px;
+}
+#links{
+    margin:0;
+    min-width: 320px;
+    margin-top: 0px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#links.botaoMenu{
+    min-width: 100px;
+    max-width: 900px;
+}
+.botaoMenu{
+    background-color: black;
+    border-radius: 40px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid rgb(33, 38, 105);
+    cursor:pointer;
+}
+.botaoMenu:hover {
+    background-color: rgb(33, 46, 105)
+}
+.botaoMenu:active {
+  background-color: #1c6ba0;
+  transform: translateY(4px);
+}
+
